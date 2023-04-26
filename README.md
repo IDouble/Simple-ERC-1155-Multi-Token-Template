@@ -1,10 +1,10 @@
 # 🌎 Simple ERC 1155 Multi Token Template 🌏
-🌎 Very Simple ERC-1155 Smart Contract Template to create your own ERC-1155 Tokens on the Ethereum Blockchain, with many customizable Options 🌏
+🌎 Very Simple ERC-1155 Smart Contract Template to create your own ERC-1155 Tokens on the Ethereum Blockchain, with many customizable options 🌏
 
 ## 💎 What is ERC-1155? 💎
 **ERC-1155** is a free, open standard that describes how to build tokens and non-fungible or unique tokens (NFT) on the Ethereum blockchain. It can create fungible tokens (every token is the same as every other token), and non-fungible or unique tokens (NFT) where tokens are unique.
 
-**ERC-1155** has a huge advantage when it comes to transaction costs, because you're able to create multiple non-fungible (NFT) and fungible tokens in one transaction, you can also send the tokens in one single transaction as a batch, less transactions = less transactions cost.
+**ERC-1155** has a huge advantage when it comes to transaction costs, because you're able to create multiple non-fungible (NFT) and fungible tokens in one transaction, you can also send the tokens in one single transaction as a batch, fewer transactions = less transactions cost.
 
 ## ⚙️ Setup ⚙️
 
@@ -23,9 +23,9 @@ GitHub Gist Link: https://gist.github.com/AYIDouble/9ea36647220e2982ca55cf179bd9
 
 ## 🌎 PlanetEarth.sol 🌏 (ERC-1155 Token)
 
-In this small example we are creating an ERC-1155 Token with a non-fungible token (Earth) and fungible Tokens (Gold & Silver). 🌎
+In this small example, we are creating an ERC-1155 Token with a non-fungible token (Earth) and fungible Tokens (Gold & Silver). 🌎
 
-**Example: Our planet Earth saved as a non-fungible token (NFT) with gold and silver as fungible tokens (cryptocurrency) in the Ethereum Blockchain.**
+**Example: Our planet Earth is saved as a non-fungible token (NFT) with gold and silver as fungible tokens (cryptocurrency) in the Ethereum Blockchain.**
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
@@ -65,7 +65,7 @@ contract PlanetEarth is ERC1155, Ownable {
 }
 ```
 
-## ❔ What's the difference between a non-fungible (NFT) and fungible token in ERC-1155? ❔
+## ❔ What's the difference between a non-fungible (NFT) and a fungible token in ERC-1155? ❔
 
 In **ERC-1155** a non-fungible (NFT) gets only created once and is unique, and fungible tokens are created more than once, like a cryptocurrency.
 That's it, it's very simple, here's a code example where non-fungible (NFT) and fungible tokens are created:
