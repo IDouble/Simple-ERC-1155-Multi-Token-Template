@@ -6,20 +6,6 @@
 
 **ERC-1155** has a huge advantage when it comes to transaction costs, because you're able to create multiple non-fungible (NFT) and fungible tokens in one transaction, you can also send the tokens in one single transaction as a batch, less transactions = less transactions cost.
 
-## ❔ What's the difference between a non-fungible (NFT) and fungible token in ERC-1155? ❔
-
-In **ERC-1155** a non-fungible (NFT) gets only created once and is unique, and fungible tokens are created more than once, like a cryptocurrency.
-That's it, it's very simple, here's a code example where non-fungible (NFT) and fungible tokens are created:
-
-```
-// A non-fungible (NFT) Token, created only once, the NFT planet Earth is unique and only exists once
-_mint(msg.sender, EARTH, 1, ""); // Unique Token, Non-fungible Token (NFT), we only create 1 planet Earth
-
-// Fungible tokens, created multiple times (250'000 gold and 2'000'000 silver tokens), all gold or silver tokens are identical
-_mint(msg.sender, GOLD, 250000, ""); // Cryptocurrency, There're about 250'000 tonnes of gold on planet Earth
-_mint(msg.sender, SILVER, 2000000, ""); // Cryptocurrency, There're about 2'000'000 tonnes of silver on planet Earth
-```
-
 ## ⚙️ Setup ⚙️
 
 Each Line of the **Solidity Code** has a comment that explains what is happening. 📝 
@@ -77,4 +63,18 @@ contract PlanetEarth is ERC1155, Ownable {
         _setURI(newuri);
     }
 }
+```
+
+## ❔ What's the difference between a non-fungible (NFT) and fungible token in ERC-1155? ❔
+
+In **ERC-1155** a non-fungible (NFT) gets only created once and is unique, and fungible tokens are created more than once, like a cryptocurrency.
+That's it, it's very simple, here's a code example where non-fungible (NFT) and fungible tokens are created:
+
+```
+// A non-fungible (NFT) Token, created only once, the NFT planet Earth is unique and only exists once
+_mint(msg.sender, EARTH, 1, ""); // Unique Token, Non-fungible Token (NFT), we only create 1 planet Earth
+
+// Fungible tokens, created multiple times (250'000 gold and 2'000'000 silver tokens), all gold or silver tokens are identical
+_mint(msg.sender, GOLD, 250000, ""); // Cryptocurrency, There're about 250'000 tonnes of gold on planet Earth
+_mint(msg.sender, SILVER, 2000000, ""); // Cryptocurrency, There're about 2'000'000 tonnes of silver on planet Earth
 ```
