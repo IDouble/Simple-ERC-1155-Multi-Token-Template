@@ -78,3 +78,5 @@ _mint(msg.sender, EARTH, 1, ""); // Unique Token, Non-fungible Token (NFT), we o
 _mint(msg.sender, GOLD, 250000, ""); // Cryptocurrency, There're about 250'000 tonnes of gold on planet Earth
 _mint(msg.sender, SILVER, 2000000, ""); // Cryptocurrency, There're about 2'000'000 tonnes of silver on planet Earth
 ```
+
+![Binance Ready to give crypto a try ? buy bitcoin and other cryptocurrencies on binance](Images/binance.jpg)
